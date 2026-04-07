@@ -1,0 +1,10 @@
+body{
+    background-color: aliceblue ;
+    background-color: blue ;
+background-image: linear-gradient(black,white);
+background-size: cover;
+background-image: url(./tony\ stark.webp);
+border-right-width: 100px;
+backdrop-image cover ;
+
+}

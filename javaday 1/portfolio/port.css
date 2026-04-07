@@ -1,0 +1,47 @@
+/* Basic Reset */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { line-height: 1.5; color: #333; }
+
+        a { text-decoration: none; color: inherit; }
+
+        ul { list-style: none; }
+
+        /* Header */
+        header { background: #222; color: white; padding: 10px 20px; }
+        nav { display: flex; justify-content: space-between; align-items: center; }
+        nav .logo { font-weight: bold; font-size: 20px; }
+        nav ul { display: flex; gap: 15px; }
+        nav ul li a { color: white; }
+
+        /* Hero Section */
+        .hero { text-align: center; padding: 50px 20px; background: #f4f4f4; }
+        .hero h1 span { color: #f39c12; }
+        .hero p { margin: 10px 0; }
+        .hero a { display: inline-block; padding: 8px 15px; background: #f39c12; color: white; margin-top: 10px; }
+
+        /* Sections */
+        section { padding: 40px 20px; text-align: center; }
+        section h2 { margin-bottom: 20px; }
+
+        /* Skills */
+        .skills .skill-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+        .skills .skill { background: #f39c12; color: white; padding: 5px 10px; }
+
+        /* Portfolio */
+        .portfolio .projects { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+        .project { width: 250px; text-align: center; }
+        .project img { width: 100%; }
+        .project h3 { margin-top: 5px; }
+
+        /* Contact */
+        .contact form { max-width: 400px; margin: 0 auto; display: flex; flex-direction: column; gap: 10px; }
+        .contact input, .contact textarea { padding: 8px; border: 1px solid #ccc; width: 100%; }
+        .contact button { padding: 8px; background: #f39c12; color: white; border: none; }
+
+        /* Footer */
+        footer { background: #222; color: white; text-align: center; padding: 10px 0; }
+
+        /* Responsive */
+        @media(max-width: 600px){
+            nav ul { flex-direction: column; gap: 10px; }
+        }

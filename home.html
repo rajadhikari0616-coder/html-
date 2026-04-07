@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Home Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 15px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            margin: auto;
+            align-items: center;
+        }
+
+        nav h1 {
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #f4b400;
+        }
+
+        .hero {
+            height: 80vh;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                        url('https://via.placeholder.com/1500') no-repeat center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+        }
+
+        .hero p {
+            margin: 15px 0;
+            font-size: 18px;
+        }
+
+        .hero button {
+            padding: 10px 20px;
+            border: none;
+            background: #f4b400;
+            color: black;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .hero button:hover {
+            background: #e09e00;
+        }
+
+        .content {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .content h3 {
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1>MySite</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div>
+        <h2>Welcome to My Website</h2>
+        <p>Your journey starts here</p>
+        <button>Get Started</button>
+    </div>
+</section>
+
+<section class="content">
+    <h3>About Us</h3>
+    <p>This is a simple homepage layout. You can customize it however you like.</p>
+</section>
+
+<footer>
+    <p>© 2026 MySite | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>z

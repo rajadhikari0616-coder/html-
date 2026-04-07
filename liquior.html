@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rsj Store </title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #111;
+            color: #fff;
+            padding: 15px 50px;
+        }
+
+        header nav a {
+            color: #fff;
+            margin-left: 20px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        header nav a:hover {
+            color: gold;
+        }
+
+        /* Hero */
+        .hero {
+            height: 80vh;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                        url('https://images.unsplash.com/photo-1584225064785-c62a8b43d148');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 50px;
+        }
+
+        .hero p {
+            margin: 15px 0;
+        }
+
+        .hero button {
+            padding: 10px 20px;
+            border: none;
+            background: gold;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        /* Products */
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            padding: 40px;
+            gap: 20px;
+            background: #f5f5f5;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #111;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    
+    <header>
+        <h1> Number 1 Liquor Store</h1>
+        <h2> Your search ends here </h2>
+        
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Contact </a>
+            <a href="#">9841425797</a>
+            <a href="#">9851002481</a>
+            <a href="#">About Us</a>
+                           
+
+    
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h2>Raj store </h2>
+        <p> banasthali kathmandu </p>
+        
+    
+
+        <section class="hero"> 
+            <h2> Premium  & Fine Taste</h2>
+            <p>Discover the best collection of whiskey, wine & vodka</p>
+            <button>Shop Now</button>
+            
+        </section>
+        
+
+    </section>
+
+    <!-- Products -->
+    <section class="products">
+
+        <div class="card">
+            <img src="https://via.placeholder.com/200x250?text=Golden+Oak">
+            <h3>Golden Oak</h3>
+            <p>Premium Nepalese Whisky</p>
+            <p>Rs. 1200</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/200x250?text=8848+Vodka">
+            <h3>8848 Vodka</h3>
+            <p>Smooth Himalayan Vodka</p>
+            <p>Rs. 2500</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/200x250?text=Gorkha+Strong">
+            <h3>Gorkha Strong</h3>
+            <p>Strong Nepal Beer</p>
+            <p> Rs.350</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/200x250?text=Tuborg+Strong">
+            <h3>Tuborg Strong</h3>
+            <p>Refreshing Lager Beer</p>
+            <p>Rs. 450</p>
+            
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/200x250?text=Old+Durbar">
+            <h3>Old Durbar</h3>
+            <p>Classic Blended Whisky</p>
+            <p>Rs. 3000</p>
+        </div>
+
+         <div class="card">
+            <img src="https://via.placeholder.com/200x250?text=Old+Durbar">
+            <h3>Red level </h3>
+            <p>classic premium whisky</p>
+            <p>Rs. 12000</p>
+        </div>
+        
+        <div class="card">
+            <img src="https://via.placeholder.com/200x250?text=Old+Durbar">
+            <h3>Gurkha and Gun </h3>
+            <p>double crafted whisky </p>
+            <p>Rs.3200</p>
+
+             </div>
+
+
+    </section>
+
+   
+    <footer>
+        <p> 2026 raj Store | taste in evry sip</p>
+    </footer>
+
+    <footer>
+        <p> Thank you for visiting </p>
+    </footer>
+
+
+
+
+
+</body>
+</html>
